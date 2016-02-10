@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>WU ITS LOG</title>
+<title>LOG</title>
 <link rel="stylesheet" type="text/css" href="style2.css"> 
 </head>
 <body>
