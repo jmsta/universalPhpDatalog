@@ -13,7 +13,7 @@
 // 2. List CSV files 
 // 3. View A CSV File
 //
-// Get VARS for writing CSV are data0=filename data1=column1 data2=Column2 -- Colum 0 always time stamp
+// Get VARS for writing CSV are data0=filename data1=column1 data2=Column2 -- Column 0 always time stamp
 //                           
 // Get VAR for viewing CSV file  CSV=filename
 
@@ -37,9 +37,10 @@ $today=date("F j Y g:i a");
 		 
 	$myfile = fopen($fname, "a") or die("0");
 	fwrite($myfile,$today.",".$d1.$d2."\r\n");
-	//fwrite($myfile,$today.",".$d1.",".$d2."\r\n");//old
-    fclose($myfile); 
-	}  
+	fclose($myfile); 
+	
+  	
+  }  
 	  
 	  
 //Check to see if we are reading a csv file 	  
